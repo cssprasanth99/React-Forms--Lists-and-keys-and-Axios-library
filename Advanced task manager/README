@@ -1,0 +1,46 @@
+### README: Task Manager Application
+
+This README provides an overview and usage guide for the Task Manager application.
+
+#### Overview
+The Task Manager application allows users to manage their tasks. Users can add new tasks, view existing tasks, mark tasks as completed or incomplete, assign tasks to different users, and delete tasks. The application fetches and updates task data from a JSON server using Axios.
+
+#### Usage
+
+1. **Installation**
+   - Clone the repository to your local machine.
+   - Ensure you have Node.js and npm installed.
+
+2. **Setup JSON Server**
+   - Run the JSON server by navigating to the project directory in your terminal and executing:
+     ```
+     json-server --watch db.json --port 3000
+     ```
+   This will start the JSON server with the provided `db.json` file as the database and listen on port 3000.
+
+3. **Run the Application**
+   - Open the `index.html` file in your preferred browser.
+
+4. **Adding a Task**
+   - To add a new task, enter the task title in the "Task Title" input field.
+   - Choose the assigned user from the dropdown menu.
+   - Check the "Completion Status" checkbox if the task is completed.
+   - Click the "Add task" button.
+
+5. **Viewing Tasks**
+   - Click the "Get Data" button to fetch and display all tasks from the server.
+   - The tasks will be displayed in a table format with columns for task title, status, assigned user, and delete button.
+
+6. **Deleting a Task**
+   - To delete a task, click the "Delete" button next to the task you wish to remove.
+
+#### Dependencies
+- React.js: JavaScript library for building user interfaces.
+- ReactDOM: React library for DOM rendering.
+- Axios: Promise-based HTTP client for making requests to the JSON server.
+- Bootstrap: CSS framework for styling the application.
+
+#### Project Structure
+- `index.html`: HTML file containing the application structure and script tags.
+- `app.js`: JavaScript file containing the React components and application logic.
+- `db.json`: JSON file acting as a database for storing task data.

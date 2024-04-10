@@ -1,0 +1,31 @@
+### README: User Filter App
+
+This README provides an overview and usage guide for the User Filter App.
+
+#### Overview
+The User Filter App is a simple React application that allows users to filter through a list of users based on their first name or last name. Users can enter a search query in the input field, and the app will dynamically filter and display users whose names match the search query.
+
+#### Usage
+
+1. **Installation**
+   - Clone the repository to your local machine.
+   - Open the `index.html` file in your preferred web browser.
+
+2. **Filtering Users**
+   - Upon opening the application, you will see an input field labeled "Enter username".
+   - Enter a search query in the input field to filter users. The app will dynamically update the list of displayed users based on the search query.
+   - The search query is case-insensitive, and users whose first name or last name contains the search query will be displayed.
+
+3. **Viewing User Profiles**
+   - The filtered users are displayed as user profiles, showing their avatar (profile picture) and full name.
+   - Scroll through the list of user profiles to view the filtered users.
+   - Each user profile includes the user's avatar and full name (concatenation of first name and last name).
+
+#### Project Structure
+- `index.html`: HTML file containing the application structure and script tags.
+- `app.js`: JavaScript file containing the React components and application logic.
+
+#### Dependencies
+- React.js: JavaScript library for building user interfaces.
+- ReactDOM: React library for DOM rendering.
+- Babel: JavaScript compiler for converting JSX syntax to JavaScript.

@@ -1,0 +1,35 @@
+### README: Todo App
+
+This README provides an overview and usage guide for the Todo App.
+
+#### Overview
+The Todo App is a simple React application that allows users to manage a list of tasks (todos). Users can add new todos, mark todos as completed, and delete todos.
+
+#### Usage
+
+1. **Installation**
+   - Clone the repository to your local machine.
+   - Open the `index.html` file in your preferred web browser.
+
+2. **Adding Todos**
+   - To add a new todo, type the todo text in the input field at the top of the page.
+   - Press the "Go" button or press Enter to submit the todo.
+   - The new todo will be added to the list of todos.
+
+3. **Completing Todos**
+   - To mark a todo as completed, click the checkbox next to the todo item.
+   - Completed todos will have a line-through style applied to their text.
+
+4. **Deleting Todos**
+   - To delete a todo, click the "Delete" button next to the todo item.
+   - The todo will be removed from the list of todos.
+
+#### Project Structure
+- `index.html`: HTML file containing the application structure and script tags.
+- `style.css`: CSS file for styling the Todo App.
+- `app.js`: JavaScript file containing the React components and application logic.
+
+#### Dependencies
+- React.js: JavaScript library for building user interfaces.
+- ReactDOM: React library for DOM rendering.
+- Babel: JavaScript compiler for converting JSX syntax to JavaScript.

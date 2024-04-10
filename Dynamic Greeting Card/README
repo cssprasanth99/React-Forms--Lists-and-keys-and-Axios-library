@@ -1,0 +1,36 @@
+### README: Greeting Card App
+
+This README provides an overview and usage guide for the Greeting Card App.
+
+#### Overview
+The Greeting Card App is a simple React application that displays a list of greeting cards. Each greeting card contains a personalized greeting message and the recipient's name. The application is designed to demonstrate basic React component rendering and data mapping.
+
+#### Usage
+
+1. **Installation**
+   - Clone the repository to your local machine.
+   - Open the `index.html` file in your preferred web browser.
+
+2. **Viewing Greeting Cards**
+   - Upon opening the application, you will see a list of greeting cards displayed on the webpage.
+   - Each greeting card contains a greeting message and the recipient's name.
+   - The greeting cards are populated with sample data, but you can modify the data as needed in the `arr` array in the `App` component.
+
+3. **Customizing Greeting Cards**
+   - To customize the greeting cards, edit the `arr` array in the `App` component.
+   - Each object in the `arr` array represents a greeting card and contains two properties: `greeting` (the greeting message) and `name` (the recipient's name).
+   - Modify the values of `greeting` and `name` as desired to create personalized greeting cards.
+
+#### Project Structure
+- `index.html`: HTML file containing the application structure and script tags.
+- `style.css`: CSS file for styling the greeting cards.
+- `app.js`: JavaScript file containing the React components and application logic.
+- `README.md`: Markdown file containing the project documentation.
+
+#### Dependencies
+- React.js: JavaScript library for building user interfaces.
+- ReactDOM: React library for DOM rendering.
+- Babel: JavaScript compiler for converting JSX syntax to JavaScript.
+- Bootstrap: CSS framework for styling the application (included via CDN).
+
+
