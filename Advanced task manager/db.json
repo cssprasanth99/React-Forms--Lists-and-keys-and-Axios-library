@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "562f",
+      "title": "Reading",
+      "isCompleted": true,
+      "assignedTo": "Anthony"
+    },
+    {
+      "id": "f75e",
+      "title": "asdf",
+      "isCompleted": false,
+      "assignedTo": "Anthony"
+    },
+    {
+      "id": "d222",
+      "title": "erty",
+      "isCompleted": false,
+      "assignedTo": "Akbar"
+    }
+  ]
+}
